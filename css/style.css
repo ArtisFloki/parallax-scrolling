@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* body {
+    background-color: #29170b;
+} */
+
+.parallax_conteneur {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.plan5 {
+    background: url('/img/plan5.png') no-repeat bottom center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.plan4 {
+    background: url('/img/plan4.png') no-repeat bottom center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.plan3 {
+    background: url('/img/plan3.png') no-repeat bottom center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.plan2 {
+    background: url('/img/plan2.png') no-repeat bottom center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.plan1 {
+    background: url('/img/plan1.png') no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: -40%;
+    left: 0;
+}
+
+.parallax_conteneur h1 {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 56px;
+    top: 15%;
+    width: 100%;
+    text-shadow: 0 0 10px rgb(59, 10, 53, 0.3);
+}
+
+.contenu {
+    min-height: 4000px;
+    color: #591053;
+    font-family: 'Arial', sans-serif;
+    padding: 50px;
+}
